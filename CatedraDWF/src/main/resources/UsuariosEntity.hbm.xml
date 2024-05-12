@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="sv.com.catedra.www.catedradwf.entities.UsuariosEntity" table="usuarios" schema="dwf_catedra">
+        <id name="dui">
+            <column name="DUI" sql-type="varchar(10)" length="10"/>
+        </id>
+        <property name="nombres">
+            <column name="Nombres" sql-type="varchar(300)" length="300"/>
+        </property>
+        <property name="apellidos">
+            <column name="Apellidos" sql-type="varchar(300)" length="300"/>
+        </property>
+        <property name="contraseña">
+            <column name="Contraseña" sql-type="varchar(50)" length="50"/>
+        </property>
+        <property name="correoElectronico">
+            <column name="Correo Electronico" sql-type="varchar(200)" length="200"/>
+        </property>
+        <property name="telefono">
+            <column name="Telefono" sql-type="varchar(15)" length="15" not-null="true"/>
+        </property>
+        <property name="tipoDeUsuario">
+            <column name="Tipo de usuario" sql-type="int(11)"/>
+        </property>
+        <property name="nDeTarjeta">
+            <column name="#n de tarjeta" sql-type="int(16)"/>
+        </property>
+    </class>
+</hibernate-mapping>

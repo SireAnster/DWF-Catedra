@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="sv.com.catedra.www.catedradwf.entities.ReservasEntity" table="reservas" schema="dwf_catedra">
+        <id name="id">
+            <column name="ID" sql-type="int(6)"/>
+        </id>
+        <property name="nombreUsuario">
+            <column name="Nombre usuario" sql-type="varchar(300)" length="300"/>
+        </property>
+        <property name="apellidoUsuario">
+            <column name="Apellido usuario" sql-type="varchar(300)" length="300"/>
+        </property>
+        <property name="mesaId">
+            <column name="Mesa ID" sql-type="varchar(6)" length="6"/>
+        </property>
+        <property name="fechaDeReserva">
+            <column name="Fecha de reserva" sql-type="date"/>
+        </property>
+        <property name="cantidadDeHoras">
+            <column name="Cantidad de horas" sql-type="time"/>
+        </property>
+        <property name="telefono">
+            <column name="Telefono" sql-type="varchar(15)" length="15" not-null="true"/>
+        </property>
+        <property name="correoElectronico">
+            <column name="Correo Electronico" sql-type="varchar(200)" length="200"/>
+        </property>
+    </class>
+</hibernate-mapping>
