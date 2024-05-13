@@ -1,0 +1,23 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.recibo {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.campo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.campo span {
+    font-weight: bold;
+}
+
