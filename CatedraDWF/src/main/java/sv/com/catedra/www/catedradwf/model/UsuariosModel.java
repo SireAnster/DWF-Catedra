@@ -7,7 +7,7 @@ import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import sv.com.catedra.www.catedradwf.entities.UsuariosEntity;
 
-public class Usuarios {
+public class UsuariosModel {
     SessionFactory factory = HibernateUtil.getSessionFactory();
     public int insertarUsuarios(UsuariosEntity usuarios) {
         Session ses = factory.openSession();
