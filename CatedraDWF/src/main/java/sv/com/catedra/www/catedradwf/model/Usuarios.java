@@ -5,15 +5,15 @@ import java.util.List;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import sv.com.catedra.www.catedradwf.entities.ReservasEntity;
+import sv.com.catedra.www.catedradwf.entities.UsuariosEntity;
 
-public class ReservasModel {
+public class Usuarios {
     SessionFactory factory = HibernateUtil.getSessionFactory();
-    public int insertarReservas(ReservasEntity reservas) {
+    public int insertarUsuarios(UsuariosEntity usuarios) {
         Session ses = factory.openSession();
         try {
             Transaction tran = ses.beginTransaction();
-            ses.save(reservas);
+            ses.save(usuarios);
             tran.commit();
             ses.close();
             return 1;
@@ -22,18 +22,18 @@ public class ReservasModel {
             return 0;
         }
     }
-    public List<ReservasEntity> listarReservas(){
+    public List<UsuariosEntity> listarUsuario(){
         SessionFactory sesFac = HibernateUtil.getSessionFactory();
         Session ses = sesFac.openSession();
-        ArrayList<ReservasEntity> ListaReserva = new ArrayList<ReservasEntity>();
-        String sql = "from ReservasEntity ";
-        ListaReserva  = (ArrayList<ReservasEntity>) ses.createQuery(sql).list();
-        return listarReservas();
+        ArrayList<UsuariosEntity> ListaUsuario = new ArrayList<UsuariosEntity>();
+        String sql = "from UsuariosEntity ";
+        ListaUsuario  = (ArrayList<UsuariosEntity>) ses.createQuery(sql).list();
+        return listarUsuario();
     }
-    public ReservasEntity obtenerReserva(String codigo) {
+    public UsuariosEntity obtenerUsuario(String codigo) {
         Session ses= factory.openSession();
         try {
-            ReservasEntity reservas = (ReservasEntity) ses.get(ReservasEntity.class, codigo);
+            UsuariosEntity reservas = (UsuariosEntity) ses.get(UsuariosEntity.class, codigo);
             ses.close();
             return reservas;
         }
@@ -42,7 +42,7 @@ public class ReservasModel {
             return null;
         }
     }
-    public int modificarReserva(ReservasEntity reservas) {
+    public int modificarUsuario(UsuariosEntity reservas) {
         Session ses = factory.openSession();
         try {
             Transaction tran = ses.beginTransaction();
@@ -55,11 +55,11 @@ public class ReservasModel {
             return 0;
         }
     }
-    public int eliminarReserva(String id){
+    public int eliminarUsuario(String id){
         int filasAfectadas=0;
         Session ses= factory.openSession();
         try{
-            ReservasEntity reservas= (ReservasEntity) ses.get(ReservasEntity.class, id);
+            UsuariosEntity reservas= (UsuariosEntity) ses.get(UsuariosEntity.class, id);
             if(reservas!=null){
                 Transaction tran= ses.beginTransaction();
                 ses.delete(reservas);

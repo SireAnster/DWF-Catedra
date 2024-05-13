@@ -19,5 +19,21 @@ public class ReservasController {
         modelMap.addAttribute("listaReservas",  reservasModel.listarReservas());
         return "reservas/listar";
     }
+    @RequestMapping(value = "create", method = GET)
+    public String nuevoReserva(Model model){
+        model.addAttribute("editorial", new ReservasEntity());
+        return "reservas/nuevo";
+    }
+    @RequestMapping(value = "create", method = POST)
+    public String insertarReserva(@ModelAttribute("reserva") ReservasEntity reservas, Model model, RedirectAttributes atributos) {
+        if(reservasModel.insertarReservas(reservas)>0){
+            atributos.addFlashAttribute("exito","Reserva registrada exitosamente");
+            return "redirect:/reservas/list";
+        }
+        else {
+            model.addAttribute("reservas",reservas);
+            return "reservas/nuevo";
+        }
+    }
 }
 
