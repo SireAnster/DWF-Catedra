@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Mesa y Menú</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>Seleccionar Mesa y Menú</h1>
+    <form id="pedidoForm">
+        <label for="mesa">Mesa:</label>
+        <select id="mesa" name="mesa">
+            <option value="mesa1">Mesa 1</option>
+            <option value="mesa2">Mesa 2</option>
+            <option value="mesa1">Mesa 3</option>
+            <option value="mesa2">Mesa 4</option>
+            <option value="mesa1">Mesa 5</option>
+            <option value="mesa2">Mesa 6</option>
+            <option value="mesa1">Mesa 7</option>
+            <option value="mesa2">Mesa 8</option>
+            <option value="mesa1">Mesa 9</option>
+            <option value="mesa2">Mesa 10</option>
+            <!-- Agrega más opciones según tus mesas -->
+        </select><br><br>
+
+        <label for="menu">Menú:</label>
+        <select id="menu" name="menu">
+            <option value="Hamburguesa gourmet">Hamburguesa gourmet</option>
+            <option value="Pizza New York">Pizza New York</option>
+            <option value="Ensalada Griega">Ensalada Griega</option>
+            <option value="pizza">Pizza</option>
+            <option value="Espaguetti a la boloñesa">Espaguetti a la boloñesa</option>
+            <!-- Agrega más opciones de menú -->
+        </select><br><br>
+
+        <label for="menu">Bebida:</label>
+        <select id="bebida" name="Bebida">
+            <option value="Soda">Soda</option>
+            <option value="Copa de vino">Copa de vino</option>
+            <option value="Jack Daniel's">Jack Daniel's</option>
+            <!-- Agrega más opciones de menú -->
+        </select><br><br>
+
+        <div class="button-container">
+            <button class="button" onclick="window.print()">Imprimir Confirmación</button>
+        </div>
+
+        <!-- <input type="submit" value="Imprimir Recibo"> -->
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

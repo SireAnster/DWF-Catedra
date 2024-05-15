@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99bc13e1-6844-4a9e-a02f-f722c030a36a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CatedraDWF_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/CatedraDWF_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/login_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/login_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_19_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_activation_jakarta_activation_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_inject_jakarta_inject_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_platform_jakarta_jakartaee_api_9_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_javax_servlet_jsp_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_11_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_core_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_6_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_orm_hibernate_core_6_0_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_2_3_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_22_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/pantallaMenu(Daniel)/img/carrito.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/resume/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/resume/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/resume/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/base.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CatedraDWF/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/Pantalla_Publica/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/Pantalla_Publica/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/Pantalla_Publica/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/login/login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.css" beforeDir="false" afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.html" beforeDir="false" afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.js" beforeDir="false" afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/mesas/mesas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/pantallaMenu(Daniel)/Menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/CatedraDWF/src/main/webapp/WEB-INF/views/pantallaMenu(Daniel)/Menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/login.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/java/sv/edu/udb/www/login/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/resources/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/webapp/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/webapp/login.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/src/main/webapp/registrarse.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/classes/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/classes/sv/edu/udb/www/login/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/WEB-INF/classes/sv/edu/udb/www/login/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/faces-config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/login.xhtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login/target/login-1.0-SNAPSHOT/registrarse.xhtml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2gOKm4hLqjaKE88A5mijydoBcXx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/danie/OneDrive/Imágenes/Documentos/GitHub/DWF-Catedra/CatedraDWF/src/main/webapp/WEB-INF/resume",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "672750c40d6a57928219a26b60e7cfcf"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\OneDrive\Imágenes\Documentos\GitHub\DWF-Catedra\CatedraDWF\src\main\webapp\WEB-INF\resume" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\OneDrive\Imágenes\Documentos\GitHub\DWF-Catedra\CatedraDWF\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\danie\OneDrive\Imágenes\Documentos\GitHub\DWF-Catedra\CatedraDWF\src\main\webapp\WEB-INF\views\pantallaMenu(Daniel)\img" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Payara Server.Payara 5.2022.2">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Payara 5.2022.2" type="PayaraServerConfiguration" factoryName="Remote" APPLICATION_SERVER_NAME="Payara 5.2022.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="adminServerHost" value="" />
+          <option name="clusterName" value="" />
+          <option name="transportHostId" />
+          <admin-server-host />
+          <cluster-name />
+        </data>
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52128" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="Payara Server.Payara 5.2022.2" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99bc13e1-6844-4a9e-a02f-f722c030a36a" name="Changes" comment="" />
+      <created>1715563343912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715563343912</updated>
+      <workItem from="1715563348538" duration="125000" />
+      <workItem from="1715742684138" duration="7282000" />
+      <workItem from="1715779926562" duration="1958000" />
+      <workItem from="1715781915703" duration="4498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

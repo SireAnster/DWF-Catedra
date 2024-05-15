@@ -41,4 +41,24 @@ document.addEventListener("DOMContentLoaded", function() {
         menuItem.appendChild(card);
         menuContainer.appendChild(menuItem);
     });
+
+    // Obtener el botón de inicio de sesión por su clase
+    var btnLogin = document.querySelector(".btn-login");
+    var btnReservar = document.querySelector(".btn-reservar")
+    var btnMenu = document.querySelector(".btn-menu")
+
+    // Agregar evento de clic al botón para redireccionar
+    btnLogin.addEventListener("click", function() {
+        // Redirigir a la página de inicio de sesión
+        window.location.href = '/DWF-Catedra/CatedraDWF/src/main/webapp/WEB-INF/views/login/index.html'; // Reemplaza 'login.php' con la URL real de tu página de inicio de sesión
+    });
+
+    btnReservar.addEventListener("click", function () {
+        window.location.href='/DWF-Catedra/CatedraDWF/src/main/webapp/WEB-INF/views/resume/index.html';
+    });
+
+    btnMenu.addEventListener("click", function() {
+        // Redirigir a la página de inicio de sesión
+        window.location.href = '/DWF-Catedra/CatedraDWF/src/main/webapp/WEB-INF/views/pantallaMenu(Daniel)/Menu.html'; // Reemplaza 'login.php' con la URL real de tu página de inicio de sesión
+    });
 });
